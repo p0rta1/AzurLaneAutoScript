@@ -4,12 +4,13 @@ Use 'import module.config.server as server' to import, don't use 'from xxx impor
 """
 server = 'cn'  # Setting default to cn, will avoid errors when using dev_tools
 
-VALID_SERVER = ['cn', 'en', 'jp', 'tw']
+VALID_SERVER = ['cn', 'en', 'jp', 'tw', 'kr']
 VALID_PACKAGE = {
     'com.bilibili.azurlane': 'cn',
     'com.YoStarEN.AzurLane': 'en',
     'com.YoStarJP.AzurLane': 'jp',
     'com.hkmanjuu.azurlane.gp': 'tw',
+    'kr.txwy.and.blhx' : 'kr',
 }
 VALID_CHANNEL_PACKAGE = {
     # App stores
@@ -90,6 +91,9 @@ VALID_SERVER_LIST = {
         'ルルイエ', 'サモア', '大湊', 'トラック', 'ラバウル',
         '鹿児島', 'マドラス', 'サンディエゴ', '竹敷', 'キール',
         '若松', 'オデッサ', 'スイートバン'
+    ],
+    'kr':[
+        '한산도', '명량', '옥계', '노량'
     ]
 }
 
